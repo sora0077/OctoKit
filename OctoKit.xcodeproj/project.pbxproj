@@ -20,6 +20,12 @@
 		D924E16F1B246E110025C5E9 /* LoggingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D924E1661B246E110025C5E9 /* LoggingKit.framework */; };
 		D924E1701B246E110025C5E9 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D924E1671B246E110025C5E9 /* SwiftyJSON.framework */; };
 		D924E1711B246E110025C5E9 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D924E1671B246E110025C5E9 /* SwiftyJSON.framework */; };
+		D924E17B1B246E680025C5E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D924E17A1B246E680025C5E9 /* AppDelegate.swift */; };
+		D924E17D1B246E680025C5E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D924E17C1B246E680025C5E9 /* ViewController.swift */; };
+		D924E1801B246E680025C5E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D924E17E1B246E680025C5E9 /* Main.storyboard */; };
+		D924E1821B246E680025C5E9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D924E1811B246E680025C5E9 /* Images.xcassets */; };
+		D924E1851B246E680025C5E9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D924E1831B246E680025C5E9 /* LaunchScreen.xib */; };
+		D924E1911B246E690025C5E9 /* OctoKitDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D924E1901B246E690025C5E9 /* OctoKitDemoTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +35,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = D924E1451B246B680025C5E9;
 			remoteInfo = OctoKit;
+		};
+		D924E18B1B246E690025C5E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D924E13D1B246B680025C5E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D924E1751B246E680025C5E9;
+			remoteInfo = OctoKitDemo;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -44,6 +57,16 @@
 		D924E1651B246E110025C5E9 /* BrightFutures.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BrightFutures.framework; path = Carthage/Build/iOS/BrightFutures.framework; sourceTree = "<group>"; };
 		D924E1661B246E110025C5E9 /* LoggingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LoggingKit.framework; path = Carthage/Build/iOS/LoggingKit.framework; sourceTree = "<group>"; };
 		D924E1671B246E110025C5E9 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
+		D924E1761B246E680025C5E9 /* OctoKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OctoKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D924E1791B246E680025C5E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D924E17A1B246E680025C5E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D924E17C1B246E680025C5E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D924E17F1B246E680025C5E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D924E1811B246E680025C5E9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D924E1841B246E680025C5E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D924E18A1B246E690025C5E9 /* OctoKitDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OctoKitDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D924E18F1B246E690025C5E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D924E1901B246E690025C5E9 /* OctoKitDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OctoKitDemoTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +95,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D924E1731B246E680025C5E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D924E1871B246E690025C5E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -80,6 +117,8 @@
 			children = (
 				D924E1481B246B680025C5E9 /* OctoKit */,
 				D924E1551B246B680025C5E9 /* OctoKitTests */,
+				D924E1771B246E680025C5E9 /* OctoKitDemo */,
+				D924E18D1B246E690025C5E9 /* OctoKitDemoTests */,
 				D924E1621B246DE90025C5E9 /* Frameworks */,
 				D924E1471B246B680025C5E9 /* Products */,
 			);
@@ -90,6 +129,8 @@
 			children = (
 				D924E1461B246B680025C5E9 /* OctoKit.framework */,
 				D924E1511B246B680025C5E9 /* OctoKitTests.xctest */,
+				D924E1761B246E680025C5E9 /* OctoKitDemo.app */,
+				D924E18A1B246E690025C5E9 /* OctoKitDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -138,6 +179,44 @@
 				D924E1671B246E110025C5E9 /* SwiftyJSON.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D924E1771B246E680025C5E9 /* OctoKitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D924E17A1B246E680025C5E9 /* AppDelegate.swift */,
+				D924E17C1B246E680025C5E9 /* ViewController.swift */,
+				D924E17E1B246E680025C5E9 /* Main.storyboard */,
+				D924E1811B246E680025C5E9 /* Images.xcassets */,
+				D924E1831B246E680025C5E9 /* LaunchScreen.xib */,
+				D924E1781B246E680025C5E9 /* Supporting Files */,
+			);
+			path = OctoKitDemo;
+			sourceTree = "<group>";
+		};
+		D924E1781B246E680025C5E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D924E1791B246E680025C5E9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D924E18D1B246E690025C5E9 /* OctoKitDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D924E1901B246E690025C5E9 /* OctoKitDemoTests.swift */,
+				D924E18E1B246E690025C5E9 /* Supporting Files */,
+			);
+			path = OctoKitDemoTests;
+			sourceTree = "<group>";
+		};
+		D924E18E1B246E690025C5E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D924E18F1B246E690025C5E9 /* Info.plist */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,6 +269,41 @@
 			productReference = D924E1511B246B680025C5E9 /* OctoKitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		D924E1751B246E680025C5E9 /* OctoKitDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D924E1921B246E690025C5E9 /* Build configuration list for PBXNativeTarget "OctoKitDemo" */;
+			buildPhases = (
+				D924E1721B246E680025C5E9 /* Sources */,
+				D924E1731B246E680025C5E9 /* Frameworks */,
+				D924E1741B246E680025C5E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OctoKitDemo;
+			productName = OctoKitDemo;
+			productReference = D924E1761B246E680025C5E9 /* OctoKitDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D924E1891B246E690025C5E9 /* OctoKitDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D924E1951B246E690025C5E9 /* Build configuration list for PBXNativeTarget "OctoKitDemoTests" */;
+			buildPhases = (
+				D924E1861B246E690025C5E9 /* Sources */,
+				D924E1871B246E690025C5E9 /* Frameworks */,
+				D924E1881B246E690025C5E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D924E18C1B246E690025C5E9 /* PBXTargetDependency */,
+			);
+			name = OctoKitDemoTests;
+			productName = OctoKitDemoTests;
+			productReference = D924E18A1B246E690025C5E9 /* OctoKitDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -205,6 +319,13 @@
 					D924E1501B246B680025C5E9 = {
 						CreatedOnToolsVersion = 6.3.2;
 					};
+					D924E1751B246E680025C5E9 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					D924E1891B246E690025C5E9 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = D924E1751B246E680025C5E9;
+					};
 				};
 			};
 			buildConfigurationList = D924E1401B246B680025C5E9 /* Build configuration list for PBXProject "OctoKit" */;
@@ -213,6 +334,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = D924E13C1B246B680025C5E9;
 			productRefGroup = D924E1471B246B680025C5E9 /* Products */;
@@ -221,6 +343,8 @@
 			targets = (
 				D924E1451B246B680025C5E9 /* OctoKit */,
 				D924E1501B246B680025C5E9 /* OctoKitTests */,
+				D924E1751B246E680025C5E9 /* OctoKitDemo */,
+				D924E1891B246E690025C5E9 /* OctoKitDemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -234,6 +358,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		D924E14F1B246B680025C5E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D924E1741B246E680025C5E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D924E1801B246E680025C5E9 /* Main.storyboard in Resources */,
+				D924E1851B246E680025C5E9 /* LaunchScreen.xib in Resources */,
+				D924E1821B246E680025C5E9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D924E1881B246E690025C5E9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -258,6 +399,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D924E1721B246E680025C5E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D924E17D1B246E680025C5E9 /* ViewController.swift in Sources */,
+				D924E17B1B246E680025C5E9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D924E1861B246E690025C5E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D924E1911B246E690025C5E9 /* OctoKitDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -266,7 +424,31 @@
 			target = D924E1451B246B680025C5E9 /* OctoKit */;
 			targetProxy = D924E1531B246B680025C5E9 /* PBXContainerItemProxy */;
 		};
+		D924E18C1B246E690025C5E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D924E1751B246E680025C5E9 /* OctoKitDemo */;
+			targetProxy = D924E18B1B246E690025C5E9 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D924E17E1B246E680025C5E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D924E17F1B246E680025C5E9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D924E1831B246E680025C5E9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D924E1841B246E680025C5E9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D924E15A1B246B680025C5E9 /* Debug */ = {
@@ -428,6 +610,64 @@
 			};
 			name = Release;
 		};
+		D924E1931B246E690025C5E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OctoKitDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D924E1941B246E690025C5E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OctoKitDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D924E1961B246E690025C5E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OctoKitDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OctoKitDemo.app/OctoKitDemo";
+			};
+			name = Debug;
+		};
+		D924E1971B246E690025C5E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OctoKitDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OctoKitDemo.app/OctoKitDemo";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -457,6 +697,22 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		D924E1921B246E690025C5E9 /* Build configuration list for PBXNativeTarget "OctoKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D924E1931B246E690025C5E9 /* Debug */,
+				D924E1941B246E690025C5E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D924E1951B246E690025C5E9 /* Build configuration list for PBXNativeTarget "OctoKitDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D924E1961B246E690025C5E9 /* Debug */,
+				D924E1971B246E690025C5E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
