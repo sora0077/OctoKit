@@ -10,6 +10,16 @@
 		D924E14C1B246B680025C5E9 /* OctoKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D924E14B1B246B680025C5E9 /* OctoKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D924E1521B246B680025C5E9 /* OctoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D924E1461B246B680025C5E9 /* OctoKit.framework */; };
 		D924E1591B246B680025C5E9 /* OctoKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D924E1581B246B680025C5E9 /* OctoKitTests.swift */; };
+		D924E1681B246E110025C5E9 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D924E1631B246E110025C5E9 /* Alamofire.framework */; };
+		D924E1691B246E110025C5E9 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D924E1631B246E110025C5E9 /* Alamofire.framework */; };
+		D924E16A1B246E110025C5E9 /* APIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D924E1641B246E110025C5E9 /* APIKit.framework */; };
+		D924E16B1B246E110025C5E9 /* APIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D924E1641B246E110025C5E9 /* APIKit.framework */; };
+		D924E16C1B246E110025C5E9 /* BrightFutures.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D924E1651B246E110025C5E9 /* BrightFutures.framework */; };
+		D924E16D1B246E110025C5E9 /* BrightFutures.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D924E1651B246E110025C5E9 /* BrightFutures.framework */; };
+		D924E16E1B246E110025C5E9 /* LoggingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D924E1661B246E110025C5E9 /* LoggingKit.framework */; };
+		D924E16F1B246E110025C5E9 /* LoggingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D924E1661B246E110025C5E9 /* LoggingKit.framework */; };
+		D924E1701B246E110025C5E9 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D924E1671B246E110025C5E9 /* SwiftyJSON.framework */; };
+		D924E1711B246E110025C5E9 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D924E1671B246E110025C5E9 /* SwiftyJSON.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +39,11 @@
 		D924E1511B246B680025C5E9 /* OctoKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OctoKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D924E1571B246B680025C5E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D924E1581B246B680025C5E9 /* OctoKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OctoKitTests.swift; sourceTree = "<group>"; };
+		D924E1631B246E110025C5E9 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		D924E1641B246E110025C5E9 /* APIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APIKit.framework; path = Carthage/Build/iOS/APIKit.framework; sourceTree = "<group>"; };
+		D924E1651B246E110025C5E9 /* BrightFutures.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BrightFutures.framework; path = Carthage/Build/iOS/BrightFutures.framework; sourceTree = "<group>"; };
+		D924E1661B246E110025C5E9 /* LoggingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LoggingKit.framework; path = Carthage/Build/iOS/LoggingKit.framework; sourceTree = "<group>"; };
+		D924E1671B246E110025C5E9 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +51,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D924E16C1B246E110025C5E9 /* BrightFutures.framework in Frameworks */,
+				D924E16A1B246E110025C5E9 /* APIKit.framework in Frameworks */,
+				D924E1681B246E110025C5E9 /* Alamofire.framework in Frameworks */,
+				D924E16E1B246E110025C5E9 /* LoggingKit.framework in Frameworks */,
+				D924E1701B246E110025C5E9 /* SwiftyJSON.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,7 +63,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D924E16B1B246E110025C5E9 /* APIKit.framework in Frameworks */,
+				D924E16D1B246E110025C5E9 /* BrightFutures.framework in Frameworks */,
+				D924E1711B246E110025C5E9 /* SwiftyJSON.framework in Frameworks */,
+				D924E16F1B246E110025C5E9 /* LoggingKit.framework in Frameworks */,
 				D924E1521B246B680025C5E9 /* OctoKit.framework in Frameworks */,
+				D924E1691B246E110025C5E9 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,6 +80,7 @@
 			children = (
 				D924E1481B246B680025C5E9 /* OctoKit */,
 				D924E1551B246B680025C5E9 /* OctoKitTests */,
+				D924E1621B246DE90025C5E9 /* Frameworks */,
 				D924E1471B246B680025C5E9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -100,6 +126,18 @@
 				D924E1571B246B680025C5E9 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D924E1621B246DE90025C5E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D924E1631B246E110025C5E9 /* Alamofire.framework */,
+				D924E1641B246E110025C5E9 /* APIKit.framework */,
+				D924E1651B246E110025C5E9 /* BrightFutures.framework */,
+				D924E1661B246E110025C5E9 /* LoggingKit.framework */,
+				D924E1671B246E110025C5E9 /* SwiftyJSON.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -327,6 +365,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = OctoKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -342,6 +384,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = OctoKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -356,6 +402,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -373,6 +420,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = OctoKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -399,6 +447,7 @@
 				D924E15E1B246B680025C5E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D924E15F1B246B680025C5E9 /* Build configuration list for PBXNativeTarget "OctoKitTests" */ = {
 			isa = XCConfigurationList;
@@ -407,6 +456,7 @@
 				D924E1611B246B680025C5E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
